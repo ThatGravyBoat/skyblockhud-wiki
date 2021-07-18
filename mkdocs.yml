@@ -14,7 +14,7 @@ markdown_extensions:
 theme:
   name: material
   icon:
-    logo: material/beehive-outline
+    logo: icons/octicons/question-16.svg
   palette:
     scheme: slate
     primary: red
