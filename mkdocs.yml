@@ -1,0 +1,27 @@
+nav:
+  - Home: 'index.md'
+
+site_name: Skyblock Hud Wiki
+docs_dir: docs
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - admonition
+
+
+theme:
+  name: material
+  icon:
+    logo: material/beehive-outline
+  palette:
+    scheme: slate
+    primary: red
+    accent: pink
+
+extra_css:
+  - extra.css
+
+
+site_description: Welcome to the Skyblock Hud wiki!
