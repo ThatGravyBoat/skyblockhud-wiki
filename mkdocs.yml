@@ -17,7 +17,7 @@ markdown_extensions:
 theme:
   name: material
   icon:
-    logo: octicons/question-16.svg
+    logo: octicons/question-16
   palette:
     scheme: slate
     primary: deep orange
