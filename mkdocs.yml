@@ -1,5 +1,7 @@
 nav:
-  - Home: 'index.md'
+  - Home : 'index.md'
+  - Npc : 'npc.md'
+  - Styles : 'styles.md'
 
 site_name: Skyblock Hud Wiki
 docs_dir: docs
