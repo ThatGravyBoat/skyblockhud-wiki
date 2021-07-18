@@ -4,6 +4,7 @@ nav:
   - Styles : 'styles.md'
 
 site_name: Skyblock Hud Wiki
+site_url: https://skyblockhud-wiki.readthedocs.io/en/latest/
 docs_dir: docs
 
 markdown_extensions:
