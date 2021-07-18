@@ -1,0 +1,15 @@
+:root > * {
+    --md-code-hl-name-color: var(--md-code-hl-number-color);
+    --md-admonition-icon--template: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="48px" height="48px"><g><rect fill="none" height="24" width="24" x="0" y="0"/></g><g><g><path d="M20,2H4C2.9,2,2,2.9,2,4v18l4-4h14c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M20,16H5.17L4,17.17V4h16V16z"/><polygon points="12,15 13.57,11.57 17,10 13.57,8.43 12,5 10.43,8.43 7,10 10.43,11.57"/></g></g></svg>');
+}
+.md-typeset .admonition.template, .md-typeset details.template {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .template > .admonition-title, .md-typeset .template > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .template > .admonition-title::before, .md-typeset .template > summary::before {
+  background-color: rgb(31, 202, 71);
+  -webkit-mask-image: var(--md-admonition-icon--template);
+          mask-image: var(--md-admonition-icon--template);
+}
