@@ -2,7 +2,7 @@
 
 ## **Npc Textures Json**
 
-The JSON should be located in a texture pack in the same where all textures are added accept in the `data` folder. The path would be this `assets\skyblockhud\data`.
+The JSON which should be named `npc_textures.json` should be located in a texture pack in the same where all textures are added accept in the `data` folder. The path would be this `assets\skyblockhud\data`.
 
 !!! example
         Your JSON should look something like this:
